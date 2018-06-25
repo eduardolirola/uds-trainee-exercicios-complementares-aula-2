@@ -20,11 +20,11 @@ public class JogoParOuImpar {
         Random random = new Random();
         int numero = random.nextInt(99);
         if (numero % 2 == 0 && aposta % 2 == 0) {
-            System.out.println("RESPOSTA CORRETA!  VOCE ACABA DE GANHAR 10 PONTOS o/\n");
+            System.out.println("RESPOSTA CORRETA!  VOCE ACABA DE GANHAR 10 PONTOS  o/\n");
             usuario += 10;
             menu();
         } else if (numero % 2 != 0 && aposta % 2 != 0){
-            System.out.println("RESPOSTA CORRETA! VOCE ACABA DE GANHAR 10 PONTOS o/\n");
+            System.out.println("RESPOSTA CORRETA! VOCE ACABA DE GANHAR 10 PONTOS  o/\n");
             usuario += 10;
             menu();
         } else {

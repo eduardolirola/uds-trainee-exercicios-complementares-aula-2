@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-    Produto produto1 = new Produto("MONITOR 15' VALOR: ",250.00);
-    Produto produto2 = new Produto("MONITOR 17' VALOR: ",350.00);
-    Produto produto3 = new Produto("MONITOR 19' VALOR: ",450.00);
-    Produto produto4 = new Produto("MONITOR 20' VALOR: ",550.00);
-    Produto produto5 = new Produto("MONITOR 22' VALOR: ",650.00);
+    Produto produto1 = new Produto("MONITOR 15'  VALOR: ",250.00);
+    Produto produto2 = new Produto("MONITOR 17'  VALOR: ",350.00);
+    Produto produto3 = new Produto("MONITOR 19'  VALOR: ",450.00);
+    Produto produto4 = new Produto("MONITOR 20'  VALOR: ",550.00);
+    Produto produto5 = new Produto("MONITOR 22'  VALOR: ",650.00);
 
 
         Pedido pedido1 = new Pedido();
